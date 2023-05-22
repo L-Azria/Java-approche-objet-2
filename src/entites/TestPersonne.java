@@ -1,7 +1,5 @@
 package entites;
 
-import entites2.Personne;
-
 public class TestPersonne {
 
     public static void main(String[] args) {
@@ -11,5 +9,6 @@ public class TestPersonne {
         Personne pers2 = new Personne("Azria", "Lan", adr2);
         Personne pers3 = new Personne("nom 3", "prénom 3");
         System.out.println(pers1);
+
     }
 }

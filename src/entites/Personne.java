@@ -1,6 +1,8 @@
-package entites2;
+package entites;
 
 import entites.AdressePostale;
+
+
 
 public class Personne {
     public String nom;
@@ -17,5 +19,14 @@ public class Personne {
         this.prenom = prenom;
     }
 
+    public void afficherIdentite(String[] args) {
+        System.out.println(prenom + " " + nom.toUpperCase());
+    }
+    public void modifierNom(String nvNom){
+        this.nom = nvNom;
+    }
+    public void modifierAdresse(AdressePostale nvAdresse){
+        this.adressePostale = nvAdresse;
+    }
 
 }
