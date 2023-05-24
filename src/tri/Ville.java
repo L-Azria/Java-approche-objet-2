@@ -1,4 +1,4 @@
-package listes;
+package tri;
 
 public class Ville implements Comparable<Ville> {
     private String nom;
@@ -42,11 +42,11 @@ public class Ville implements Comparable<Ville> {
         this.nom = nom;
     }
 
-    public int getNombreHabitants() {
+    public Integer getNombreHabitants() {
         return nombreHabitants;
     }
 
-    public void setNombreHabitants(int nombreHabitants) {
+    public void setNombreHabitants(Integer nombreHabitants) {
         this.nombreHabitants = nombreHabitants;
     }
 

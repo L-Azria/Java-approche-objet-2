@@ -27,7 +27,7 @@ public class TestVilles {
 
 
         //Recherchez et affichez la ville la plus peuplée
-        Ville villeHabitantMax = new Ville("", 0);
+        Ville villeHabitantMax = villes.get(0);
 
         for(int i = 0; i< villes.size(); i++){
             Ville ville = villes.get(i);
@@ -66,7 +66,7 @@ public class TestVilles {
 
 
         // Modifiez les villes de plus de 100 000 habitants en mettant leur nom en majuscules
-
+        System.out.println("Modifiez les villes de plus de 100 000 habitants en mettant leur nom en majuscules");
         for (int i = 0; i< villes.size(); i++){
             Ville ville = villes.get(i);
             if(ville.getNombreHabitants() > 100000){
@@ -75,6 +75,9 @@ public class TestVilles {
 
         }
         System.out.println(villes);
+
+
+
         }
 
     }
