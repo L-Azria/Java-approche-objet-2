@@ -1,8 +1,8 @@
 package fr.diginamic.banque.entites;
 
 public abstract class Operation {
-    String dateOperation;
-    float montant;
+    private String dateOperation;
+    private float montant;
 
     @Override
     public String toString() {

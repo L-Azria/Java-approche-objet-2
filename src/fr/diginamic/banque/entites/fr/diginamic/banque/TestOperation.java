@@ -22,10 +22,10 @@ public class TestOperation {
         //System.out.println(debit1.getMontant());
 
         for (int i=0; i< op.length; i++) {
-            if (Objects.equals(op[i].getType(), "CREDIT")) {
+            if (op[i].getType().equals("CREDIT")) {
                 //System.out.println("+++");
                 montantGlobal = montantGlobal + op[i].getMontant();
-            } else if (Objects.equals(op[i].getType(), "DEBIT")) {
+            } else if (op[i].getType().equals("DEBIT")) {
                //System.out.println("---");
                 montantGlobal = montantGlobal - op[i].getMontant();
             }
