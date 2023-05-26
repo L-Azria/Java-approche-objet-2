@@ -17,6 +17,8 @@ public class Ville implements Comparable<Ville> {
         return result;
     }*/
 
+
+    // trier les villes dans l'ordre du nombre d'habitants
     @Override
     public int compareTo(Ville o) {
         if (this.nombreHabitants > o.getNombreHabitants()){
@@ -27,6 +29,8 @@ public class Ville implements Comparable<Ville> {
         }
         return 0;
     }
+    // puisque les nombreHabitant sont les int, on peut utiliser la ligne de commande en dessous.
+    //return this.nombreHabitant - o.getNombreHabitants()
 
 
     @Override

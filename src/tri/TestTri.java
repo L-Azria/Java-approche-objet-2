@@ -26,6 +26,7 @@ public class TestTri {
             villes.add (ville8);
 
         // Triez la liste par l'ordre alphabétique
+        //cette méthode va exploiter le méthode CompareTo de la Ville pour faire le tri
         //Collections.sort(villes);
         //System.out.println("liste des villes par l'ordre alphabétique");
         //System.out.println(villes);
